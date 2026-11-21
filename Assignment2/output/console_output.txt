@@ -1,0 +1,331 @@
+Loading required package: xts
+Loading required package: zoo
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Loading required package: TTR
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Loading data for 6 symbol(s): AAPL, MSFT, NVDA, AMZN, GOOGL, TSLA
+Downloading AAPL ...
+AAPL: 251 trading days loaded (2025-11-21 to 2026-11-20)
+Downloading MSFT ...
+MSFT: 251 trading days loaded (2025-11-21 to 2026-11-20)
+Downloading NVDA ...
+NVDA: 251 trading days loaded (2025-11-21 to 2026-11-20)
+Downloading AMZN ...
+AMZN: 251 trading days loaded (2025-11-21 to 2026-11-20)
+Downloading GOOGL ...
+GOOGL: 251 trading days loaded (2025-11-21 to 2026-11-20)
+Downloading TSLA ...
+TSLA: 251 trading days loaded (2025-11-21 to 2026-11-20)
+
+============================================================
+  AAPL  - Imported Stock Data
+============================================================
+Rows: 251  Columns: AAPL.Open, AAPL.High, AAPL.Low, AAPL.Close, AAPL.Volume, AAPL.Adjusted 
+Date range: 2025-11-21 to 2026-11-20 
+
+--- First 6 rows ---
+           AAPL.Open AAPL.High AAPL.Low AAPL.Close AAPL.Volume AAPL.Adjusted
+2025-11-21    265.95    273.33   265.67     271.49    59030800      270.5474
+2025-11-24    270.90    277.00   270.90     275.92    65585800      274.9621
+2025-11-25    275.27    280.38   275.25     276.97    46914200      276.0084
+2025-11-26    276.96    279.53   276.63     277.55    33431400      276.5865
+2025-11-28    277.26    279.00   275.99     278.85    20135600      277.8819
+2025-12-01    278.01    283.42   276.14     283.10    46587700      282.1172
+
+--- Last 6 rows ---
+           AAPL.Open AAPL.High AAPL.Low AAPL.Close AAPL.Volume AAPL.Adjusted
+2026-11-13    357.96    360.83   355.75     356.27    40027500        356.27
+2026-11-16    357.13    357.13   351.31     352.78    50292200        352.78
+2026-11-17    352.83    355.36   349.67     351.91    37407500        351.91
+2026-11-18    351.94    356.42   351.47     352.45    34209900        352.45
+2026-11-19    352.91    355.28   346.47     349.21    40906900        349.21
+2026-11-20    352.87    354.34   340.56     342.56    80464200        342.56
+
+--- Structure ---
+An xts object on 2025-11-21 / 2026-11-20 containing: 
+  Data:    double [251, 6]
+  Columns: AAPL.Open, AAPL.High, AAPL.Low, AAPL.Close, AAPL.Volume ... with 1 more column
+  Index:   Date [251] (TZ: "UTC")
+  xts Attributes:
+    $ src    : chr "yahoo"
+    $ updated: POSIXct[1:1], format: "2026-11-21 16:44:51"
+
+------------------------------------------------------------
+  AAPL  - Calculated Statistics
+------------------------------------------------------------
+                          Statistic  Value
+            Moving Average (20-day) 347.48
+            Moving Average (50-day) 341.81
+                 Mean Closing Price 296.23
+                 Mode Closing Price 278.78
+               Median Closing Price 294.38
+ Standard Deviation (Closing Price)  31.97
+              Minimum Closing Price 246.63
+              Maximum Closing Price 356.27
+             Number of Trading Days 251.00
+
+============================================================
+  MSFT  - Imported Stock Data
+============================================================
+Rows: 251  Columns: MSFT.Open, MSFT.High, MSFT.Low, MSFT.Close, MSFT.Volume, MSFT.Adjusted 
+Date range: 2025-11-21 to 2026-11-20 
+
+--- First 6 rows ---
+           MSFT.Open MSFT.High MSFT.Low MSFT.Close MSFT.Volume MSFT.Adjusted
+2025-11-21    478.50    478.92   468.27     472.12    31769200      468.2391
+2025-11-24    475.00    476.90   468.02     474.00    34421000      470.1037
+2025-11-25    474.07    479.15   464.89     476.99    28019800      473.0691
+2025-11-26    486.31    488.31   481.20     485.50    25709100      481.5092
+2025-11-28    487.60    492.63   486.65     492.01    14386700      487.9657
+2025-12-01    488.44    489.86   484.65     486.74    23964000      482.7390
+
+--- Last 6 rows ---
+           MSFT.Open MSFT.High MSFT.Low MSFT.Close MSFT.Volume MSFT.Adjusted
+2026-11-13    519.75    526.42   513.82     523.88    26189200      522.8699
+2026-11-16    525.09    527.95   516.82     517.99    30218600      516.9913
+2026-11-17    514.57    515.64   496.51     506.24    27992800      505.2639
+2026-11-18    505.50    510.44   501.08     508.29    22050100      507.3100
+2026-11-19    519.50    526.49   498.16     498.30    29350600      498.3000
+2026-11-20    493.74    503.80   481.03     484.52    47123700      484.5200
+
+--- Structure ---
+An xts object on 2025-11-21 / 2026-11-20 containing: 
+  Data:    double [251, 6]
+  Columns: MSFT.Open, MSFT.High, MSFT.Low, MSFT.Close, MSFT.Volume ... with 1 more column
+  Index:   Date [251] (TZ: "UTC")
+  xts Attributes:
+    $ src    : chr "yahoo"
+    $ updated: POSIXct[1:1], format: "2026-11-21 16:44:52"
+
+------------------------------------------------------------
+  MSFT  - Calculated Statistics
+------------------------------------------------------------
+                          Statistic  Value
+            Moving Average (20-day) 522.96
+            Moving Average (50-day) 519.84
+                 Mean Closing Price 449.07
+                 Mode Closing Price 390.34
+               Median Closing Price 451.10
+ Standard Deviation (Closing Price)  53.77
+              Minimum Closing Price 352.83
+              Maximum Closing Price 555.80
+             Number of Trading Days 251.00
+
+============================================================
+  NVDA  - Imported Stock Data
+============================================================
+Rows: 251  Columns: NVDA.Open, NVDA.High, NVDA.Low, NVDA.Close, NVDA.Volume, NVDA.Adjusted 
+Date range: 2025-11-21 to 2026-11-20 
+
+--- First 6 rows ---
+           NVDA.Open NVDA.High NVDA.Low NVDA.Close NVDA.Volume NVDA.Adjusted
+2025-11-21    181.24    184.56   172.93     178.88   346926200      178.4525
+2025-11-24    179.49    183.50   176.48     182.55   256618300      182.1137
+2025-11-25    174.91    178.16   169.55     177.82   320600300      177.3950
+2025-11-26    181.63    182.91   178.24     180.26   183852000      179.8292
+2025-11-28    179.01    179.29   176.50     177.00   121332800      176.5770
+2025-12-01    174.76    180.30   173.68     179.92   188131000      179.4900
+
+--- Last 6 rows ---
+           NVDA.Open NVDA.High NVDA.Low NVDA.Close NVDA.Volume NVDA.Adjusted
+2026-11-13    169.91    170.00   158.39     162.85   365796600        162.85
+2026-11-16    159.02    163.20   155.01     156.14   333822100        156.14
+2026-11-17    156.90    158.19   150.33     155.46   406985100        155.46
+2026-11-18    159.19    159.70   150.40     150.96   349791400        150.96
+2026-11-19    152.92    158.13   145.71     145.98   322940100        145.98
+2026-11-20    143.52    143.73   124.50     125.53   626373200        125.53
+
+--- Structure ---
+An xts object on 2025-11-21 / 2026-11-20 containing: 
+  Data:    double [251, 6]
+  Columns: NVDA.Open, NVDA.High, NVDA.Low, NVDA.Close, NVDA.Volume ... with 1 more column
+  Index:   Date [251] (TZ: "UTC")
+  xts Attributes:
+    $ src    : chr "yahoo"
+    $ updated: POSIXct[1:1], format: "2026-11-21 16:44:53"
+
+------------------------------------------------------------
+  NVDA  - Calculated Statistics
+------------------------------------------------------------
+                          Statistic  Value
+            Moving Average (20-day) 181.46
+            Moving Average (50-day) 207.00
+                 Mean Closing Price 199.30
+                 Mode Closing Price 210.96
+               Median Closing Price 199.00
+ Standard Deviation (Closing Price)  19.46
+              Minimum Closing Price 125.53
+              Maximum Closing Price 239.24
+             Number of Trading Days 251.00
+
+============================================================
+  AMZN  - Imported Stock Data
+============================================================
+Rows: 251  Columns: AMZN.Open, AMZN.High, AMZN.Low, AMZN.Close, AMZN.Volume, AMZN.Adjusted 
+Date range: 2025-11-21 to 2026-11-20 
+
+--- First 6 rows ---
+           AMZN.Open AMZN.High AMZN.Low AMZN.Close AMZN.Volume AMZN.Adjusted
+2025-11-21    216.35    222.21   215.18     220.69    68490500        220.69
+2025-11-24    222.56    227.33   222.27     226.28    54318400        226.28
+2025-11-25    226.38    230.52   223.80     229.67    39379300        229.67
+2025-11-26    230.74    231.75   228.77     229.16    38497900        229.16
+2025-11-28    231.24    233.29   230.22     233.22    20292300        233.22
+2025-12-01    233.22    235.80   232.25     233.88    42904000        233.88
+
+--- Last 6 rows ---
+           AMZN.Open AMZN.High AMZN.Low AMZN.Close AMZN.Volume AMZN.Adjusted
+2026-11-13    269.56    270.05   263.91     266.66    31148500        266.66
+2026-11-16    262.40    262.92   256.68     257.75    48054200        257.75
+2026-11-17    257.55    259.90   254.00     257.89    38685200        257.89
+2026-11-18    259.81    268.29   259.51     267.74    41289500        267.74
+2026-11-19    272.56    274.00   256.75     257.37    53117900        257.37
+2026-11-20    253.48    259.97   245.31     246.82    74108100        246.82
+
+--- Structure ---
+An xts object on 2025-11-21 / 2026-11-20 containing: 
+  Data:    double [251, 6]
+  Columns: AMZN.Open, AMZN.High, AMZN.Low, AMZN.Close, AMZN.Volume ... with 1 more column
+  Index:   Date [251] (TZ: "UTC")
+  xts Attributes:
+    $ src    : chr "yahoo"
+    $ updated: POSIXct[1:1], format: "2026-11-21 16:44:53"
+
+------------------------------------------------------------
+  AMZN  - Calculated Statistics
+------------------------------------------------------------
+                          Statistic  Value
+            Moving Average (20-day) 257.42
+            Moving Average (50-day) 255.03
+                 Mean Closing Price 242.76
+                 Mode Closing Price 232.38
+               Median Closing Price 246.02
+ Standard Deviation (Closing Price)  20.01
+              Minimum Closing Price 198.79
+              Maximum Closing Price 284.02
+             Number of Trading Days 251.00
+
+============================================================
+  GOOGL  - Imported Stock Data
+============================================================
+Rows: 251  Columns: GOOGL.Open, GOOGL.High, GOOGL.Low, GOOGL.Close, GOOGL.Volume, GOOGL.Adjusted 
+Date range: 2025-11-21 to 2026-11-20 
+
+--- First 6 rows ---
+           GOOGL.Open GOOGL.High GOOGL.Low GOOGL.Close GOOGL.Volume
+2025-11-21     296.42     303.92    293.85      299.66     74137700
+2025-11-24     311.13     319.48    309.60      318.58     85165100
+2025-11-25     326.21     328.83    317.65      323.44     88632100
+2025-11-26     320.68     324.50    316.79      319.95     51373400
+2025-11-28     323.37     326.85    316.79      320.18     26018600
+2025-12-01     317.70     319.85    313.89      314.89     41183000
+           GOOGL.Adjusted
+2025-11-21       298.8827
+2025-11-24       317.7536
+2025-11-25       322.6010
+2025-11-26       319.1201
+2025-11-28       319.3495
+2025-12-01       314.0732
+
+--- Last 6 rows ---
+           GOOGL.Open GOOGL.High GOOGL.Low GOOGL.Close GOOGL.Volume
+2026-11-13     302.98     304.97    293.44      295.77     30798600
+2026-11-16     293.81     294.14    282.96      283.72     34747200
+2026-11-17     283.40     284.09    278.46      280.20     32175900
+2026-11-18     282.75     284.97    279.69      282.44     27401800
+2026-11-19     294.30     295.43    272.36      272.66     49718500
+2026-11-20     274.50     283.15    264.22      265.29     57302800
+           GOOGL.Adjusted
+2026-11-13         295.77
+2026-11-16         283.72
+2026-11-17         280.20
+2026-11-18         282.44
+2026-11-19         272.66
+2026-11-20         265.29
+
+--- Structure ---
+An xts object on 2025-11-21 / 2026-11-20 containing: 
+  Data:    double [251, 6]
+  Columns: GOOGL.Open, GOOGL.High, GOOGL.Low, GOOGL.Close, GOOGL.Volume ... with 1 more column
+  Index:   Date [251] (TZ: "UTC")
+  xts Attributes:
+    $ src    : chr "yahoo"
+    $ updated: POSIXct[1:1], format: "2026-11-21 16:44:54"
+
+------------------------------------------------------------
+  GOOGL  - Calculated Statistics
+------------------------------------------------------------
+                          Statistic  Value
+            Moving Average (20-day) 289.45
+            Moving Average (50-day) 322.30
+                 Mean Closing Price 333.77
+                 Mode Closing Price 295.77
+               Median Closing Price 336.02
+ Standard Deviation (Closing Price)  29.03
+              Minimum Closing Price 265.29
+              Maximum Closing Price 402.62
+             Number of Trading Days 251.00
+
+============================================================
+  TSLA  - Imported Stock Data
+============================================================
+Rows: 251  Columns: TSLA.Open, TSLA.High, TSLA.Low, TSLA.Close, TSLA.Volume, TSLA.Adjusted 
+Date range: 2025-11-21 to 2026-11-20 
+
+--- First 6 rows ---
+           TSLA.Open TSLA.High TSLA.Low TSLA.Close TSLA.Volume TSLA.Adjusted
+2025-11-21    402.32    402.80   383.76     391.09   100460600        391.09
+2025-11-24    402.17    421.72   401.09     417.78    96806400        417.78
+2025-11-25    414.42    420.48   405.95     419.40    71915600        419.40
+2025-11-26    423.95    426.94   416.89     426.58    63463000        426.58
+2025-11-28    426.59    432.93   426.20     430.17    36252900        430.17
+2025-12-01    425.32    433.66   425.29     430.14    57463600        430.14
+
+--- Last 6 rows ---
+           TSLA.Open TSLA.High TSLA.Low TSLA.Close TSLA.Volume TSLA.Adjusted
+2026-11-13    401.68    404.40   385.83     390.22    32393000        390.22
+2026-11-16    387.00    389.80   375.63     379.74    30242400        379.74
+2026-11-17    382.19    382.84   374.13     380.11    22286700        380.11
+2026-11-18    385.24    389.27   378.36     383.72    26892900        383.72
+2026-11-19    389.91    393.60   370.81     374.41    26532900        374.41
+2026-11-20    370.43    373.88   344.33     345.82    45990400        345.82
+
+--- Structure ---
+An xts object on 2025-11-21 / 2026-11-20 containing: 
+  Data:    double [251, 6]
+  Columns: TSLA.Open, TSLA.High, TSLA.Low, TSLA.Close, TSLA.Volume ... with 1 more column
+  Index:   Date [251] (TZ: "UTC")
+  xts Attributes:
+    $ src    : chr "yahoo"
+    $ updated: POSIXct[1:1], format: "2026-11-21 16:44:55"
+
+------------------------------------------------------------
+  TSLA  - Calculated Statistics
+------------------------------------------------------------
+                          Statistic  Value
+            Moving Average (20-day) 384.80
+            Moving Average (50-day) 375.64
+                 Mean Closing Price 394.25
+                 Mode Closing Price 345.82
+               Median Closing Price 392.78
+ Standard Deviation (Closing Price)  38.11
+              Minimum Closing Price 298.32
+              Maximum Closing Price 489.88
+             Number of Trading Days 251.00
+Chart saved: output/AAPL_chart.png
+Chart saved: output/MSFT_chart.png
+Chart saved: output/NVDA_chart.png
+Chart saved: output/AMZN_chart.png
+Chart saved: output/GOOGL_chart.png
+Chart saved: output/TSLA_chart.png
+There were 12 warnings (use warnings() to see them)
+
+Analysis complete. Charts saved in the output folder.
